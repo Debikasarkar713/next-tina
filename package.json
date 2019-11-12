@@ -1,0 +1,25 @@
+{
+  "name": "hello-next-tina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"tina-git-server 3001\"",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/api-git": "^0.1.1-canary.202",
+    "@tinacms/git-client": "^0.2.0",
+    "concurrently": "^5.0.0",
+    "moment": "^2.24.0",
+    "next": "^9.1.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-tinacms": "^0.6.1-canary.1793",
+    "tinacms": "^0.6.0"
+  }
+}
